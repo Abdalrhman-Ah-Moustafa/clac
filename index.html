@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/bootstrap.min.css" />
+    <link rel="stylesheet" href="style/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="d-flex justify-content-center align-items-center vh-100 w-100">
+      <form
+        action="home.html"
+        onsubmit="return login()"
+        class="d-flex justify-content-center align-items-center flex-column bg-primary p-5 rounded"
+       >
+        <label class="mb-2 fw-bold UserNameLable">User Name</label>
+        <input type="text" class="mb-2 userNameInput" />
+        <label class="mb-2 fw-bold pasowrdLable">Pasowrd</label>
+        <input type="password" class="mb-2 pasowrdInput" />
+        <label class="mb-2 fw-bold pasLable">Confirm Pasowrd</label>
+        <input type="password" class="mb-2 ConfarmPasowrd" />
+        <input type="checkbox" class="checkbox" >
+        <button type="submit" class="btn btn-dark">Login</button>
+
+
+
+      </form>
+    </div>
+
+    <script src="java script/bootstrap.bundle.min.js"></script>
+    <script src="java script/index.js"></script>
+  </body>
+</html>
